@@ -2,42 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Islamic Kids Portal</title>
 
-  <!-- Google AdSense: Paste this between the <head> tags -->
-  <script async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6500059246786803"
-          crossorigin="anonymous"></script>
-  <!-- End AdSense code -->
+  <!-- Google AdSense loader script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6500059246786803"
+    crossorigin="anonymous"></script>
 
-  <!-- Your site’s main stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome to the Islamic Kids Portal</h1>
-  </header>
+    <h1>Islamic Kids Portal</h1>
 
-  <main>
-    <p>Your interactive quizzes and videos will appear here.</p>
-    <!-- Example ad unit placement below post title -->
+    <!-- Display Ad (Header, Horizontal) -->
     <ins class="adsbygoogle"
-         style="display:block"
+         style="display:block; text-align:center;"
          data-ad-client="ca-pub-6500059246786803"
-         data-ad-slot="YOUR_AD_SLOT_ID"
+         data-ad-slot="5309566769"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+  </header>
+
+  <main>
+    <section class="post-list">
+      <article>
+        <h2><a href="posts/dealing-with-bullying.html">Dealing with School Bullying</a></h2>
+        <p>Learn how to stand up to bullying with wisdom and kindness.</p>
+      </article>
+
+      <!-- In-Article Ad (between posts) -->
+      <ins class="adsbygoogle in-article-ad"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-6500059246786803"
+           data-ad-slot="1370321751"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Islamic Kids Portal</p>
   </footer>
 
-  <!-- Your quiz logic -->
-  <script src="quiz.js"></script>
+  <script src="scripts/quiz.js"></script>
 </body>
 </html>
