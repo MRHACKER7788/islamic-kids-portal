@@ -1,1 +1,35 @@
-body { font-family: Arial, sans-serif; padding: 2rem; }
+/* styles.css */
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 1rem;
+}
+header, footer {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* Sidebar ad container */
+.sidebar-ad {
+  width: 300px;
+  margin: 1rem auto;
+}
+/* In-article ad styling */
+.in-article-ad {
+  display: block;
+  margin: 2rem 0;
+}
+
+/* Hide sidebar ads on screens 768px and narrower */
+@media screen and (max-width: 768px) {
+  .sidebar-ad {
+    display: none;
+  }
+  /* Make in-article ads full-width */
+  .in-article-ad {
+    width: 100%;
+    max-width: 320px;
+    margin: 1rem auto;
+  }
+}
